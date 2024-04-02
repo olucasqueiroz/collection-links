@@ -44,6 +44,6 @@ func main() {
 	for _, link := range data.Links {
 		fmt.Println("Nome:", link.Nome)
 		fmt.Println("Link:", link.Link)
-		fmt.Println("--------------------")
+		fmt.Println("~~~~~~~~~~~~~~~~~~~~~~~~")
 	}
 }
