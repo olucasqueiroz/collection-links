@@ -13,7 +13,7 @@ type Link struct {
 }
 
 type LinksData struct {
-	Links []Link `json:"dados"`
+	Links []Link `json:"Links"`
 }
 
 func main() {
@@ -44,6 +44,6 @@ func main() {
 	for _, link := range data.Links {
 		fmt.Println("Nome:", link.Nome)
 		fmt.Println("Link:", link.Link)
-		fmt.Println("010101010101010101010101010101")
+		fmt.Println("___________________________________")
 	}
 }
