@@ -17,8 +17,10 @@ type LinksData struct {
 }
 
 func main() {
+	fileJson := "links.json"
+
 	// Verificar se o arquivo existe
-	_, err := os.Stat("links.json")
+	_, err := os.Stat(fileJson)
 
 	if err != nil {
 		fmt.Println("O arquivo links.json não existe.")
@@ -26,7 +28,7 @@ func main() {
 	}
 
 	// Ler as informações do arquivo
-	file, err := ioutil.ReadFile("links.json")
+	file, err := ioutil.ReadFile(fileJson)
 	if err != nil {
 		fmt.Println("Erro ao ler o arquivo links.json:", err)
 		return
