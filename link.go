@@ -54,7 +54,7 @@ func main() {
 			return
 		}
 
-		fmt.Println("Link adicionado com sucesso!")
+		fmt.Println("✅🎉 Link adicionado com sucesso!")
 	} else {
 		fmt.Println("Link já existe.")
 	}
