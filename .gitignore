@@ -5,3 +5,5 @@ Requisitos.txt
 links.json
 read.go
 reading.exe
+exe/
+test/
